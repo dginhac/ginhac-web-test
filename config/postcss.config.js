@@ -12,8 +12,6 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
   dynamicAttributes: ['data-bs-theme'],
   safelist: [
     ...whitelister([
-      './assets/scss/theme/fonts.scss',
-      './assets/scss/theme/theme.scss',
       './_vendor/github.com/gethinode/hinode/assets/scss/components/_clipboard.scss',
       './_vendor/github.com/gethinode/hinode/assets/scss/components/_command.scss',
       './_vendor/github.com/gethinode/hinode/assets/scss/components/_nav.scss',
@@ -23,6 +21,9 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
       './_vendor/github.com/gethinode/hinode/assets/scss/components/_syntax-dark.scss',
       './_vendor/github.com/gethinode/hinode/assets/scss/components/_syntax-light.scss',
       './_vendor/github.com/gethinode/hinode/assets/scss/components/_table.scss',
+      './_vendor/github.com/gethinode/hinode/assets/scss/components/_video.scss',
+      './_vendor/github.com/gethinode/hinode/assets/scss/theme/fonts.scss',
+      './_vendor/github.com/gethinode/hinode/assets/scss/theme/theme.scss',
       './_vendor/github.com/gethinode/mod-flexsearch/assets/scss/modules/flexsearch/flexsearch.scss',
       './_vendor/github.com/gethinode/mod-katex/dist/katex.scss',
       './_vendor/github.com/gethinode/mod-leaflet/dist/leaflet.scss',
